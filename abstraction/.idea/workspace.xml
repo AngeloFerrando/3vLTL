@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f9f3e85-eb2f-49d9-baac-e837e4fa83bb" name="Default Changelist" comment="Some bug fix">
+      <change afterPath="$PROJECT_DIR$/automaton.gv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automaton.hoa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outfile.ps" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;fromState&quot;:&quot;s2&quot;</find>
+      <find>Atlmodel</find>
+      <find>model.json</find>
+      <find>defaultTransition</find>
+      <find>agentActionsByStates</find>
+      <find>de</find>
+      <find>defa</find>
+      <find>defaultTransaction</find>
+      <find>removeAgentActionListFromTransitions</find>
+      <find>removeAgentActionListFromTransition</find>
+      <find>getStateClusters</find>
+      <find>m</find>
+      <find>model.js</find>
+      <find>Proto</find>
+      <find>toState</find>
+      <find>initial</find>
+      <find>toStateClu</find>
+      <find>getLabels</find>
+      <find>or</find>
+      <find>Vars</find>
+      <find>index.ht</find>
+      <find>lobsvars</find>
+      <find>getMultipleAgentActions</find>
+      <find>default</find>
+      <find>Comb</find>
+      <find>multipleAgentActions</find>
+      <find>Label</find>
+      <find>fromState</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/Agent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/AtlModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/AgentAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/Formula.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/TransformBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/MultipleAgentAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/model.json" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/Transition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/StateCluster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/controllers/AbstractionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/AbstractionUtils.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="13" />
+    <option name="width" value="640" />
+    <option name="height" value="467" />
+  </component>
+  <component name="ProjectId" id="1nbL7vmrZP2CayvsXqMwqx84LIs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abstraction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abstraction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/media/angelo/WorkData/git/3vLTL/abstraction",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "976d7f4df64d24f20d17e6628210c895",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.univ_evry.ibisc.atl.abstraction.beans" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn deploy" />
+      <command value="mvn install" />
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Three-valued Automaton">
+    <configuration name="AbstractionUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.univ_evry.ibisc.atl.abstraction.AbstractionUtils" />
+      <module name="abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.univ_evry.ibisc.atl.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.univ_evry.ibisc.atl.abstraction.App" />
+      <module name="abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.univ_evry.ibisc.atl.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="fr.univ_evry.ibisc.atl.abstraction.TestParser" />
+      <module name="abstraction" />
+      <option name="VM_PARAMETERS" value="-Xss1M" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Three-valued Automaton" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="fr.univ_evry.ibisc.atl.abstraction.AutomatonMain" />
+      <module name="abstraction" />
+      <option name="PROGRAM_PARAMETERS" value="-ltl &quot;X a&quot; -alphabet &quot;a&quot; -outcome uu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="abstraction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fr.univ_evry.ibisc.atl.abstraction.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Parser" />
+      <item itemvalue="Application.Three-valued Automaton" />
+      <item itemvalue="Application.AbstractionUtils" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.AbstractionUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f9f3e85-eb2f-49d9-baac-e837e4fa83bb" name="Default Changelist" comment="" />
+      <created>1546185536650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546185536650</updated>
+      <workItem from="1611653680802" duration="3005000" />
+      <workItem from="1611657153227" duration="222000" />
+      <workItem from="1611939777940" duration="1423000" />
+      <workItem from="1611941307641" duration="13000" />
+      <workItem from="1612798766539" duration="4383000" />
+      <workItem from="1612859474746" duration="2958000" />
+      <workItem from="1612862812103" duration="10911000" />
+      <workItem from="1613150178447" duration="1669000" />
+      <workItem from="1613749514985" duration="6188000" />
+      <workItem from="1614019522481" duration="21000" />
+      <workItem from="1616076021475" duration="796000" />
+      <workItem from="1616076830958" duration="11885000" />
+      <workItem from="1616142856093" duration="8842000" />
+      <workItem from="1616158167490" duration="14306000" />
+      <workItem from="1616578776158" duration="4096000" />
+      <workItem from="1617006639345" duration="5722000" />
+      <workItem from="1617350123011" duration="57000" />
+      <workItem from="1617380530627" duration="1232000" />
+      <workItem from="1617864750687" duration="14639000" />
+      <workItem from="1617970264252" duration="320000" />
+      <workItem from="1617970782350" duration="4000" />
+      <workItem from="1619785727575" duration="3805000" />
+      <workItem from="1621581283465" duration="9189000" />
+      <workItem from="1621605571324" duration="2277000" />
+      <workItem from="1621839946030" duration="67000" />
+      <workItem from="1621840029943" duration="15585000" />
+      <workItem from="1622034456810" duration="8036000" />
+      <workItem from="1622097580534" duration="10635000" />
+      <workItem from="1622217987647" duration="132000" />
+      <workItem from="1622218140329" duration="6331000" />
+      <workItem from="1622443137622" duration="12882000" />
+      <workItem from="1622562988180" duration="201000" />
+      <workItem from="1622563496996" duration="74000" />
+      <workItem from="1623921704714" duration="6946000" />
+      <workItem from="1623940996364" duration="3202000" />
+      <workItem from="1624526463398" duration="610000" />
+      <workItem from="1625490956183" duration="10729000" />
+      <workItem from="1626764328430" duration="4204000" />
+      <workItem from="1628146549939" duration="16138000" />
+      <workItem from="1628175544924" duration="1602000" />
+      <workItem from="1628177913031" duration="13000" />
+      <workItem from="1628250090199" duration="1230000" />
+      <workItem from="1629785697873" duration="98000" />
+      <workItem from="1629786030135" duration="6931000" />
+      <workItem from="1631024938562" duration="54000" />
+      <workItem from="1634112548941" duration="19777000" />
+      <workItem from="1634193527381" duration="25591000" />
+      <workItem from="1634279688501" duration="11686000" />
+      <workItem from="1634728474181" duration="8933000" />
+      <workItem from="1634904898969" duration="7069000" />
+      <workItem from="1634921806149" duration="584000" />
+      <workItem from="1635257531741" duration="3645000" />
+      <workItem from="1635517690949" duration="3527000" />
+      <workItem from="1635867293548" duration="4176000" />
+      <workItem from="1636130901312" duration="851000" />
+      <workItem from="1636643361992" duration="4843000" />
+      <workItem from="1638257779714" duration="2994000" />
+      <workItem from="1638547711913" duration="2162000" />
+      <workItem from="1638862010625" duration="822000" />
+      <workItem from="1639583922348" duration="1779000" />
+      <workItem from="1640073768380" duration="20000" />
+      <workItem from="1641549115171" duration="13280000" />
+      <workItem from="1641973406717" duration="846000" />
+      <workItem from="1642491310366" duration="3882000" />
+      <workItem from="1642669017920" duration="2091000" />
+      <workItem from="1643119329935" duration="44000" />
+      <workItem from="1643119480079" duration="28000" />
+      <workItem from="1643119536221" duration="4205000" />
+      <workItem from="1643273791564" duration="12824000" />
+      <workItem from="1643630122535" duration="25000" />
+      <workItem from="1647441479288" duration="2680000" />
+      <workItem from="1649076193120" duration="107000" />
+      <workItem from="1650380040847" duration="21000" />
+      <workItem from="1653373137030" duration="15000" />
+      <workItem from="1660033652072" duration="15677000" />
+      <workItem from="1660127052158" duration="168000" />
+      <workItem from="1660297645049" duration="3000" />
+      <workItem from="1660735414165" duration="320000" />
+      <workItem from="1677504765370" duration="1093000" />
+    </task>
+    <task id="LOCAL-00001" summary="must transitions generation updated">
+      <created>1617869568765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617869568766</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated parser to handle ATL properties. Integrated new ATL property into json model file. Updated the code to use new features.">
+      <created>1621590255382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621590255382</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated parser to handle ATL properties. Integrated new ATL property into json model file. Updated the code to use new features. Added first attempt of mapping from CGS to Buchi, and of product between buchis.">
+      <created>1622041219686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622041219686</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated parser to handle ATL properties. Integrated new ATL property into json model file. Updated the code to use new features. Added first attempt of mapping from CGS to Buchi, and of product between buchis.">
+      <created>1622041421678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622041421678</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed Buchi product. Added getPath() to retrieve a path from an automaton (which is an automaton as well).">
+      <created>1622115401814</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622115401814</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed Buchi Automaton generation from LTL formula.">
+      <created>1622446564579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622446564579</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished the model checking procedure (still to test).">
+      <created>1623943181986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623943181986</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finished the model checking procedure (still to test).">
+      <created>1623944547150</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623944547150</updated>
+    </task>
+    <task id="LOCAL-00009" summary="A lot.. but really a lot of work.. Now, finally, it works on a simple case. Still we need to test on a more general scenario, but the entire procedure now has for the first time ever worked!!">
+      <created>1636648094089</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636648094089</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Some bug fix">
+      <created>1638862821203</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638862821203</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Some bug fix">
+      <created>1660057709009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660057709009</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="948" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3488248" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3296355" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32799014" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3290653" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2811344" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39827374" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="must transitions generation updated" />
+    <MESSAGE value="Updated parser to handle ATL properties. Integrated new ATL property into json model file. Updated the code to use new features." />
+    <MESSAGE value="Updated parser to handle ATL properties. Integrated new ATL property into json model file. Updated the code to use new features. Added first attempt of mapping from CGS to Buchi, and of product between buchis." />
+    <MESSAGE value="Fixed Buchi product. Added getPath() to retrieve a path from an automaton (which is an automaton as well)." />
+    <MESSAGE value="Fixed Buchi Automaton generation from LTL formula." />
+    <MESSAGE value="Finished the model checking procedure (still to test)." />
+    <MESSAGE value="A lot.. but really a lot of work.. Now, finally, it works on a simple case. Still we need to test on a more general scenario, but the entire procedure now has for the first time ever worked!!" />
+    <MESSAGE value="Some bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some bug fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/unige/abstraction/AbstractionUtils.java</url>
+          <line>1025</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/unige/abstraction/AbstractionUtils.java</url>
+          <line>1028</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/unige/abstraction/AbstractionUtils.java</url>
+          <line>1053</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/abstraction$Parser.ic" NAME="Parser Coverage Results" MODIFIED="1634139570020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;************************************************************************\n                       MCMAS v1.3.0 \n\n This software comes with ABSOLUTELY NO WARRANTY, to the extent\n permitted by applicable law. \n\n Please check http://vas.doc.ic.ac.uk/tools/mcmas/ for the latest release.\n Please send any feedback to &lt;mcmas@imperial.ac.uk&gt;\n************************************************************************\n\nCommand line: /applications/products/mcmas/mcmas-linux64-1.3.0 /tmp/may1547940468067.ispl\n\n/tmp/may1547940468067.ispl has been parsed successfully.\nGlobal syntax checking...\n1\n1\n1\nDone\nEncoding BDD parameters...\nBuilding partial transition relation...\nBuilding BDD for initial states...\nBuilding reachable state space...\nChecking formulae...\nVerifying properties...\n  Formula number 1: (! (&lt;g1&gt;F s4)), is TRUE in the model\ndone, 1 formulae successfully read and checked\nexecution time = 0.029\nnumber of reachable states = 5\nBDD memory in use = 9180912\n&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../../../products/jdks/jdk1.8.0_161/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../products/jdks/jdk1.8.0_161/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/CollectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1689" column="32" selection-start-line="1689" selection-start-column="32" selection-end-line="1689" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar!/org/apache/commons/collections4/ListUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="351" column="30" selection-start-line="351" selection-start-column="30" selection-end-line="351" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../products/jdks/jdk1.8.0_161/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/AtlModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="12" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar!/org/apache/commons/exec/DefaultExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#2;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#2;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#2;n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar!/org/apache/commons/exec/DefaultExecuteResultHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/TransformBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/AgentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/MultipleAgentAction.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="79" column="65" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/controllers/AbstractionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/beans/StateCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="192" column="23" selection-end-line="502" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/univ_evry/ibisc/atl/abstraction/AbstractionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="462" column="103" selection-start-line="462" selection-start-column="103" selection-end-line="462" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
