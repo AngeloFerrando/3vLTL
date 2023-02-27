@@ -2,6 +2,8 @@
 
 First, download the JAR file from the release section.
 
+
+
 To run the example as in the paper, open the terminal and run:
 
 ```bash
