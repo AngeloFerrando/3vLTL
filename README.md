@@ -11,6 +11,8 @@ To run the example as in the paper, open the terminal and run:
 java -jar 3vLTL.jar -ltl "X a" -alphabet "a" -outcome uu
 ```
 
+Note that, the alphabet atomic propositions can be passed separated by comma. For instance, if the alphabet comprises a, b and c, then we would pass -alphabet "a,b,c" in the terminal.
+
 Then, to visualise the automaton so generated:
 
 ```bash
