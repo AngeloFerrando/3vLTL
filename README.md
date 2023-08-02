@@ -12,6 +12,7 @@ java -jar 3vLTL.jar -ltl "X a" -alphabet "a" -outcome uu
 ```
 
 Note that, the alphabet atomic propositions can be passed separated by comma. For instance, if the alphabet comprises a, b and c, then we would pass -alphabet "a,b,c" in the terminal.
+Moreover, the LTL property syntax follows the same used in SPOT and LTL2Buchi tools (X for next, G for globally, F for eventually, && for and, || for or, and so on).
 
 Then, to visualise the automaton so generated:
 
